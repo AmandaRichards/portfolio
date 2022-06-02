@@ -1,13 +1,13 @@
 
 import './App.css';
+import { Portrait } from './components/portrait';
+import { Header } from './components/header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-    Amanda Richards
-    
-      </header>
+    <div className="container">
+   <Header/>
+      <Portrait />
     </div>
   );
 }
