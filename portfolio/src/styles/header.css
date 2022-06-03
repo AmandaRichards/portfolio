@@ -26,5 +26,6 @@
 
 .header h2 {
   font-size: 7vh;
+  z-index: 1;
 }
 /*# sourceMappingURL=header.css.map */

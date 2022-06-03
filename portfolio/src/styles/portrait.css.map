@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,IAAI;EACf,gBAAgB,ECHN,OAAc;EDIxB,QAAQ,EAAE,QAAQ;CAErB",
+    "mappings": "AAEA,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,IAAI;EACf,gBAAgB,ECHN,OAAc;EDIxB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;CAEb",
     "sources": [
         "portrait.scss",
         "../variables/variables.scss"
