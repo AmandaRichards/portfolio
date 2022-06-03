@@ -1,9 +1,10 @@
-.container {
-  display: grid | inline-grid;
-}
+/* .container {
+  display: inline-grid;
+  flex-direction: column;
+} */
 
 body{
-  background-color: black;
+  /* background-color: #0f080f; */
   color: white
   ;
 }

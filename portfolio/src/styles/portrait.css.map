@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,IAAI;EACf,gBAAgB,ECHN,OAAc;EDIxB,QAAQ,EAAE,QAAQ;CAErB",
+    "sources": [
+        "portrait.scss",
+        "../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "portrait.css"
+}

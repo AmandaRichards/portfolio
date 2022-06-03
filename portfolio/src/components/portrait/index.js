@@ -1,9 +1,9 @@
 import React from 'react'
-import portrait from '../../trippy.png'
-import css from './index.module.css'
+import portrait from '../../trippynb.png'
+import '../../styles/portrait.css'
 
 export const Portrait = () => {
   return (
-    <img src={portrait} alt="Logo" className={css.portrait} />
+    <img src={portrait} alt="Logo" className="portrait" />
   )
 }
