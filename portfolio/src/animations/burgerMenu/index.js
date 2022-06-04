@@ -1,0 +1,20 @@
+import '../../styles/burgerMenu.scss'
+
+import React,  { useState } from 'react'
+
+function BurgerMenu() {
+    const [status, setStatus] = useState('close');
+  return (
+      <nav>
+    <div className="BurgerMenu_container"
+    role='button'
+    onClick={() => setStatus(status === 'open' ? 'close' : 'open')}>
+    <i className={status}></i>
+    <i className={status}></i>
+    <i className={status}></i>
+    </div>
+    </nav>
+  )
+}
+
+export default BurgerMenu

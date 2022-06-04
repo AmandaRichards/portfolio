@@ -3,14 +3,16 @@ import { Portrait } from './components/portrait';
 import { Header } from './components/header';
 import Footer from './components/Footer';
 import {
-  BrowserRouter as Router,
+  
   Link
 } from "react-router-dom";
+import BurgerMenu from './animations/burgerMenu';
 
 function App() {
   return (
    
     <div className="app">
+    <BurgerMenu />
     <nav>
           <ul>
             <li>
