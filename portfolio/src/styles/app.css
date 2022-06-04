@@ -47,5 +47,6 @@
   -ms-flex-line-pack: center;
       align-content: center;
   text-align: center;
+  justify-self: center;
 }
 /*# sourceMappingURL=app.css.map */
