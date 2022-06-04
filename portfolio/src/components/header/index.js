@@ -4,6 +4,7 @@ import '../../styles/header.css'
 export const Header = () => {
   return (
       <div className='header'>
+      
     <h1>Hi,  I'm Amanda</h1>
     <br>
 

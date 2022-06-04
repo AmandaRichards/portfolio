@@ -6,18 +6,25 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 40vh;
-    margin-top: 10vh;
+   margin-right: 40vh;
+   color: $pinkcolour;
+    // margin-top: 10vh;
     padding-bottom: -50vh;
-    margin-bottom: -20vh;
+    margin-bottom: -40vh;
     z-index: 1;
 
     h1{
         font-size: 10vh;
+        margin-bottom: auto;
+        z-index: 1;
+        background-color: none;
+        color: $pinkcolour;
     }
 
     h2{
         font-size: 7vh;
         z-index: 1;
+        color: $pinkcolour;
     }
 }
+

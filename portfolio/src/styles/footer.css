@@ -1,0 +1,28 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-right: 2vh;
+  font-size: 5vh;
+  color: black;
+  background-color: #2bbca6;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -5;
+}
+
+.footer p {
+  padding-right: 4vh;
+  padding-left: 4vh;
+}
+/*# sourceMappingURL=footer.css.map */

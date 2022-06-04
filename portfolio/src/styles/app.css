@@ -1,11 +1,51 @@
 .app {
   background-color: #0c0214;
   color: azure;
-  margin: 0px;
-  padding: 0px;
+}
+
+.conatiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.conatiner .triangle-topright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  width: 0;
+  height: 0;
+  border-top: 1300px solid #FF9FB2;
+  border-left: 1200px solid transparent;
+  margin-right: 0;
+  margin-left: auto;
+  margin-bottom: -50vh;
+  z-index: 3;
+  color: #0c0214;
+  text-align: center;
+}
+
+.conatiner .triangle-topright .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
 }
 /*# sourceMappingURL=app.css.map */
-body{
-background-color: #0c0214;
-color: azure;
-}

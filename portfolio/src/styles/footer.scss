@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-right: 2vh;
+    font-size: 5vh;
+    color: black;
+    background-color: #2bbca6;
+    flex-shrink: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -5;
+p{
+    padding-right: 4vh;
+    padding-left: 4vh;
+}
+}
