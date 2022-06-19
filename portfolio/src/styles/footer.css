@@ -15,14 +15,16 @@
   background-color: #2bbca6;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: -5;
+  max-height: 10vh;
 }
 
 .footer p {
+  text-align: center;
   padding-right: 4vh;
   padding-left: 4vh;
+  padding-top: 0.1vh;
+  padding-bottom: 1vh;
 }
 /*# sourceMappingURL=footer.css.map */

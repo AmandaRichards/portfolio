@@ -9,7 +9,7 @@ export const Header = () => {
     <br>
 
     </br>
-    <h2>Full stack software engineer</h2>
+    <h2><span></span></h2>
     </div>
   )
 }

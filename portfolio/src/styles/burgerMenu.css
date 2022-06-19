@@ -5,9 +5,8 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100vw;
-  height: 4em;
-  background-color: aqua;
+  width: 15vw;
+  height: 100%;
 }
 
 nav .BurgerMenu_container {
@@ -57,5 +56,44 @@ nav .close:nth-child(2) {
 nav .close:nth-child(3) {
   -webkit-transform: rotate(0) translateY(0);
           transform: rotate(0) translateY(0);
+}
+
+nav .navItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: red;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1em;
+  border: 2px solid white;
+  height: 100%;
+  width: 20vw;
+  text-align: center;
+}
+
+.menu-item {
+  padding: 1em;
+  text-decoration: none;
+  color: azure;
+  border-bottom: 2px solid white;
+}
+
+.menu-item:hover {
+  color: red;
 }
 /*# sourceMappingURL=burgerMenu.css.map */

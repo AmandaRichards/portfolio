@@ -19,12 +19,34 @@
         z-index: 1;
         background-color: none;
         color: $pinkcolour;
+        letter-spacing: 7px;
     }
 
     h2{
         font-size: 7vh;
         z-index: 1;
         color: $pinkcolour;
+
+        span::before {
+            content: "Full Stack Software Engineer";
+            animation: animate infinite 5s;
+            padding-left: 10px;
+        }
+        
+        @keyframes animate {
+        
+            0% {
+                content: "Climate Activist";
+            }
+        
+            50% {
+                content: "Peanut butter addict";
+            }
+        
+            75% {
+                content: "Adventurer";
+            }
     }
 }
 
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,sBACnB;CAAC;;AACG,AAAA,kBAAkB,CAAC;EAgBf,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,KAAK;EACnB,YAAY,EAAE,cAAc;EAC5B,YAAY,EAAE,2CAA2C;CAC5D;;AAEG,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,aAAa,EAAE,MAAM;EACrB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,MAAM;CACvB",
+    "sources": [
+        "triangle.scss",
+        "../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "triangle.css"
+}

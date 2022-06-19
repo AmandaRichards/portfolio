@@ -26,11 +26,43 @@
   z-index: 1;
   background-color: none;
   color: #FF9FB2;
+  letter-spacing: 7px;
 }
 
 .header h2 {
   font-size: 7vh;
   z-index: 1;
   color: #FF9FB2;
+}
+
+.header h2 span::before {
+  content: "Full Stack Software Engineer";
+  -webkit-animation: animate infinite 5s;
+          animation: animate infinite 5s;
+  padding-left: 10px;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    content: "Climate Activist";
+  }
+  50% {
+    content: "Peanut butter addict";
+  }
+  75% {
+    content: "Adventurer";
+  }
+}
+
+@keyframes animate {
+  0% {
+    content: "Climate Activist";
+  }
+  50% {
+    content: "Peanut butter addict";
+  }
+  75% {
+    content: "Adventurer";
+  }
 }
 /*# sourceMappingURL=header.css.map */
