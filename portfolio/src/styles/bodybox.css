@@ -1,0 +1,46 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 0vh 0px;
+  grid-auto-flow: row;
+      grid-template-areas: ". .";
+  justify-items: center;
+  margin-top: 0vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.box1 {
+  background-color: #FF9FB2;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #2bbca6;
+  min-height: 40vh;
+}
+
+.box2 {
+  background-color: #2bbca6;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #FF9FB2;
+  min-height: 40vh;
+}
+
+h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 5em;
+}
+/*# sourceMappingURL=bodybox.css.map */

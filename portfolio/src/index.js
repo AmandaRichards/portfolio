@@ -8,7 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import About from './routes/about';
+import About from './components/About'
 import Projects from './routes/projects';
 import Hackathons from './routes/hackathons';
 

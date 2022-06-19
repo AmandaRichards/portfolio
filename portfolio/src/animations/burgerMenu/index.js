@@ -1,4 +1,5 @@
 import '../../styles/burgerMenu.scss'
+import logo from '../../ARB.svg'
 
 import React,  { useState } from 'react'
 import { Link } from 'react-router-dom';
@@ -25,11 +26,11 @@ function BurgerMenu() {
     <i className={status}></i>
     </div>
    <div className='menu'>
-
+<img src={logo} alt="logo" />
    <Link to="/" className='menu-item'>Home</Link>   
    <Link to="/about" className='menu-item'>About</Link>               
    <Link to="/projects" className='menu-item'>Projects</Link>       
-  <Link to="/hackathons" className='menu-item'>Hackathons</Link>
+  <Link to="/contact" className='menu-item'>Contact</Link>
            
    
  </div>

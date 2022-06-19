@@ -7,25 +7,27 @@ import {
   Link
 } from "react-router-dom";
 import BurgerMenu from './animations/burgerMenu';
-import Triangle  from './components/Triangles'
+import BodyBox from './components/BodyBox';
+import WorkButton from './components/WorkButton';
+// import Triangle  from './components/Triangles'
 
 function App() {
   return (
    
     <div className="app">
     <BurgerMenu />
-  
+  <div className='main'>
    <Header/>
       <Portrait />
-      <Triangle />
-       <Footer/>
-      {/* <div className='conatiner'> */}
-      {/* <div className='triangle-topright'>
-        <h1 className='title'>Projects</h1> */}
-      {/* </div>
-    </div> */}
+      <WorkButton />
+      {/* <Triangle /> */}
+      {/* <img src='../../AR.png' alt="logo" className='logo'/> */}
+      <BodyBox />
+       {/* <Footer/> */}
+       </div>
+    
    
-    {/* </div> */}
+    
  
    </div>
   );

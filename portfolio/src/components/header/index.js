@@ -1,15 +1,19 @@
 import React from 'react'
 import '../../styles/header.css'
+import { Link } from 'react-router-dom'
+
 
 export const Header = () => {
   return (
       <div className='header'>
-      
-    <h1>Hi,  I'm Amanda</h1>
+    <h3>Hi I'm</h3>
+    {/* <img src={name} alt="Amanda" /> */}
+    <h1>Amanda</h1>
     <br>
 
     </br>
     <h2><span></span></h2>
+    {/* <button><Link to="/projects" className='workbutton'>See work</Link></button> */}
     </div>
   )
 }

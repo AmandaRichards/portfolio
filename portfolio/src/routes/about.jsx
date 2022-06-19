@@ -1,9 +1,19 @@
 import React from 'react'
+import BurgerMenu from '../animations/burgerMenu'
+import '../styles/about.css'
+import About from '../components/About'
 
-function About() {
+function AboutMe() {
   return (
-    <div>ABOUT</div>
+    <div >
+    <BurgerMenu />
+    <div className='main'>
+    <h1>About Me </h1>
+
+  <About />
+  </div>
+  </div>
   )
 }
 
-export default About
+export default AboutMe

@@ -1,11 +1,17 @@
 @import "../variables/variables.scss";
 
 .portrait{
-    max-height: 150vh;
+    display: flex;
+    justify-content: flex-start;
+    max-height: 125vh;
     max-width: auto;
     background-color: $blackcolour;
     position: relative;
-    margin-top: -2vh;
+    margin-top: -16vh;
+    margin-right: -15vw;
     z-index: 0;
+    border: 0ch;
+    // border: 2px solid red;
+    padding: 0px;
    
 }

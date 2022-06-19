@@ -6,12 +6,13 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-   margin-right: 40vh;
+   margin-right: 30vh;
    color: $pinkcolour;
     // margin-top: 10vh;
     padding-bottom: -50vh;
     margin-bottom: -40vh;
     z-index: 1;
+    border: 2px solid red
 
     h1{
         font-size: 10vh;
@@ -20,33 +21,71 @@
         background-color: none;
         color: $pinkcolour;
         letter-spacing: 7px;
+        border: 2px solid red
     }
-
+img{
+    min-height: fit-content;
+    min-width: fit-content;
+}
+    h3{
+        font-size: 7vh;
+        margin-bottom: -1em;
+        justify-content:right;
+        z-index: 1;
+        
+    }
     h2{
         font-size: 7vh;
         z-index: 1;
         color: $pinkcolour;
 
         span::before {
-            content: "Full Stack Software Engineer";
-            animation: animate infinite 5s;
+            content: "<Software Engineer>";
+            color: rgb(198, 5, 198);
+            animation: animate infinite 7s;
             padding-left: 10px;
         }
         
         @keyframes animate {
         
             0% {
-                content: "Climate Activist";
+                content: "<Environmentalist>";
+                color: aquamarine;
             }
+        
+            // 50% {
+            //     content: "Peanut butter addict";
+            //     color: rgb(225, 225, 132);
+            // }
         
             50% {
-                content: "Peanut butter addict";
-            }
-        
-            75% {
-                content: "Adventurer";
+                content: "<Adventurer>";
+                color: coral;
             }
     }
 }
 
 }
+
+// button{
+//     background-color: black;
+//     color: white;
+//     border: 2px solid white;
+//     border-radius: 10px;
+//     min-height: 5em;
+//     min-width: 10em;
+//     font-size: 1.5em;
+//     padding: 0;
+//     margin-top: 30vh;
+//     margin-left: -50vw;
+//     margin-bottom: -30vh;
+//     z-index: 2;
+   
+    
+// }
+
+// .workbutton{
+//     text-decoration: none;
+//     color: white;
+
+// }

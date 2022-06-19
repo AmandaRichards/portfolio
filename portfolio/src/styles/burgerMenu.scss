@@ -3,6 +3,7 @@ nav{
     align-items: center;
     width: 15vw;
     height: 100%;
+    margin: 22px;
     // background-color: aqua;
 
     .BurgerMenu_container{
@@ -68,4 +69,10 @@ nav{
 &:hover{
     color: red
 }
+
+
+}
+
+img {
+    border-bottom: 2px solid white;
 }
