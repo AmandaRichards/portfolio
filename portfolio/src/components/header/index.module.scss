@@ -13,14 +13,17 @@
     margin-bottom: -40vh;
     z-index: 1;
 
-    border: 2px solid red h1 {
-        font-size: 10vh;
-        margin-bottom: auto;
+    // border: 2px solid red h1 {
+    //     font-size: 10vh;
+    //     margin-bottom: auto;
+    //     z-index: 1;
+    //     background-color: none;
+    //     color: $pinkcolour;
+    //     letter-spacing: 7px;
+    //     border: 2px solid red
+    // }
+    h1{
         z-index: 1;
-        background-color: none;
-        color: $pinkcolour;
-        letter-spacing: 7px;
-        border: 2px solid red
     }
 
     img {
@@ -32,7 +35,7 @@
         font-size: 7vh;
         margin-bottom: -1em;
         justify-content: right;
-        z-index: 1;
+        z-index: 8;
 
     }
 

@@ -8,7 +8,7 @@ import { Header } from '../header';
 //   Link
 // } from "react-router-dom";
 import BurgerMenu from '../../animations/burgerMenu';
-import BodyBox from '../BodyBox';
+// import BodyBox from '../BodyBox';
 import WorkButton from '../WorkButton';
 // import Triangle  from './components/Triangles'
 
@@ -21,8 +21,9 @@ function App() {
    <Header/>
       <Portrait />
       <WorkButton />
+     
     
-      <BodyBox />
+      {/* <BodyBox /> */}
        {/* <Footer/> */}
        </div>
     

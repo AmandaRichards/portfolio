@@ -21,9 +21,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  text-align: left;
   color: #2bbca6;
   min-height: 40vh;
+  padding-left: 2em;
 }
 
 .box2 {
@@ -32,7 +33,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  text-align: left;
   color: pink;
   min-height: 40vh;
 }
@@ -42,5 +43,17 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 5em;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.3em;
+  padding: 0.75em;
+  margin: 1em;
+}
+
+h2 {
+  line-height: 8px;
+  margin: 1em;
 }
 /*# sourceMappingURL=index.module.css.map */

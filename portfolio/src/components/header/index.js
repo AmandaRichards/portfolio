@@ -8,7 +8,7 @@ export const Header = () => {
       <div className={css.header}>
     <h3>Hi I'm</h3>
     {/* <img src={name} alt="Amanda" /> */}
-    <h1>Amanda</h1>
+    <h1>Amanda Richards</h1>
     <br>
 
     </br>
