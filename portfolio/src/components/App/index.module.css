@@ -1,6 +1,7 @@
 .app {
   background-color: #0c0214;
   color: azure;
+  position: relative;
 }
 
 .logo {
@@ -11,10 +12,4 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.main {
-  -webkit-transition: margin-left .5s;
-  transition: margin-left .5s;
-  padding: 20px;
-}
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=index.module.css.map */

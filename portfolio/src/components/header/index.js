@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../styles/header.css'
+import css from './index.module.scss'
 import { Link } from 'react-router-dom'
 
 
 export const Header = () => {
   return (
-      <div className='header'>
+      <div className={css.header}>
     <h3>Hi I'm</h3>
     {/* <img src={name} alt="Amanda" /> */}
     <h1>Amanda</h1>

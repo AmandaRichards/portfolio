@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../../styles/workbutton.css'
+import css from './index.module.scss'
 
 const WorkButton = () => {
   return (
-    <div className='buttonContainer'>
-       <button><Link to="/projects" className='workbutton'>See work</Link></button> 
+    <div className={css.buttonContainer}>
+       <button><Link to="/projects" className={css.workbutton}>See work</Link></button> 
     </div>
   )
 }

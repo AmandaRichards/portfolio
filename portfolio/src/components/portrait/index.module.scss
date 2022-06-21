@@ -1,6 +1,6 @@
-@import "../variables/variables.scss";
+@import "../../variables/variables.scss";
 
-.portrait{
+.portrait {
     display: flex;
     justify-content: flex-start;
     max-height: 125vh;
@@ -13,5 +13,5 @@
     border: 0ch;
     // border: 2px solid red;
     padding-left: 40px;
-   
+
 }

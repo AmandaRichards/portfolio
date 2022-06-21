@@ -1,0 +1,19 @@
+@import "../../variables/variables.scss";
+
+.app {
+    background-color: $blackcolour;
+    color: azure;
+    position: relative // z-index: -2;
+
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+// .main{
+//     transition: margin-left .5s;
+//     padding: 20px;
+// }

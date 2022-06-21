@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './components/App/App.js';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import About from './components/About'
-import Projects from './routes/projects';
+import About from './routes/AboutPage/about.jsx'
+import Projects from './routes/ProjectsPage/projects';
 import Hackathons from './routes/hackathons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

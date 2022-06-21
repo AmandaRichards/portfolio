@@ -1,4 +1,4 @@
-import '../../styles/burgerMenu.scss'
+import css from './index.module.scss'
 import logo from '../../ARB.svg'
 
 import React,  { useState } from 'react'
@@ -10,27 +10,27 @@ function BurgerMenu() {
   return (
       <nav>
       { status === 'close'?
-    <div className="BurgerMenu_container"
+    <div className={css.BurgerMenu_container}
     role='button'
     onClick={() => setStatus(status === 'open' ? 'close' : 'open')}>
     <i className={status}></i>
-    <i className={status}></i>
-    <i className={status}></i>
+    <i className={css.status}></i>
+    <i className={css.status}></i>
     </div>:
     <div>
-     <div className="BurgerMenu_container"
+     <div className={css.BurgerMenu_container}
     role='button'
     onClick={() => setStatus(status === 'open' ? 'close' : 'open')}>
-    <i className={status}></i>
-    <i className={status}></i>
-    <i className={status}></i>
+    <i className={css.status}></i>
+    <i className={css.status}></i>
+    <i className={css.status}></i>
     </div>
-   <div className='menu'>
+   <div className={css.menu}>
 <img src={logo} alt="logo" />
-   <Link to="/" className='menu-item'>Home</Link>   
-   <Link to="/about" className='menu-item'>About</Link>               
-   <Link to="/projects" className='menu-item'>Projects</Link>       
-  <Link to="/contact" className='menu-item'>Contact</Link>
+   <Link to="/" className={css.menu_item}>Home</Link>   
+   <Link to="/about" className={css.menu_item}>About</Link>               
+   <Link to="/projects" className={css.menu_item}>Projects</Link>       
+  <Link to="/contact" className={css.menu_item}>Contact</Link>
            
    
  </div>

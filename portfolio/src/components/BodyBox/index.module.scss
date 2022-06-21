@@ -1,4 +1,4 @@
-@import "../variables/variables.scss";
+
 
 .container{
 // border: 1px red solid;
@@ -16,7 +16,7 @@ width: 100%;
 }
 
 .box1{
-    background-color: $pinkcolour;
+    background-color: pink;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -29,7 +29,7 @@ width: 100%;
     width: 100%;
     justify-content: center;
     text-align: center;
-    color: $pinkcolour;
+    color: pink;
     min-height: 40vh
 }
 
