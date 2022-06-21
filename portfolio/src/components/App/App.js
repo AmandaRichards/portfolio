@@ -2,11 +2,11 @@
 import css from './index.module.scss'
 import { Portrait } from '../portrait';
 import { Header } from '../header';
-import Footer from '../Footer';
-import {
+// import Footer from '../Footer';
+// import {
   
-  Link
-} from "react-router-dom";
+//   Link
+// } from "react-router-dom";
 import BurgerMenu from '../../animations/burgerMenu';
 import BodyBox from '../BodyBox';
 import WorkButton from '../WorkButton';
