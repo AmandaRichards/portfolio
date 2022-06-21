@@ -8,3 +8,41 @@ body{
     align-content: center;
     text-align: center;
 }
+
+.h1{
+    color: pink;
+}
+
+.entry{
+    text-align: left;
+    padding-left: 5vw;
+    background-color: beige;
+    width: 50vw;
+    height: 80vh
+}
+
+.education{
+    // background-color: rgb(144, 124, 186);
+    width: 40em;
+    height: 35em;
+    // border-radius: 10px;
+    // border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    // padding-top: 10em;
+    color: black;
+}
+
+.title{
+    font-size: 3em;
+}
+
+.employment{
+    width: 50vw;
+        height: 80vh;
+        background-color: pink;
+        text-align: right;
+        padding: 1em;
+        padding-right: 5em;
+}

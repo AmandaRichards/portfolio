@@ -1,4 +1,29 @@
-.image{
-    height: 5vh;
-    width: auto
+
+
+.card{
+    
+    width: 25vw;
+    height: auto;
+    /* border: 2px solid white; */
+    padding: 1em;
+    border-radius: 10px;
+    background-color: azure;
+    color: black;
+}
+
+.image {
+    /* height: auto;
+    width: auto;
+    max-height: 70vh;
+    max-width: 40vw; */
+    height: 50vh;
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    
+}
+
+p{
+    color: black;
 }

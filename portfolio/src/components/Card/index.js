@@ -1,10 +1,12 @@
 import React from 'react'
 import css from './index.module.css'
 
-const Card = ({image}) => {
+const Card = ({image, title}) => {
   return (
-    <div>
+    <div className={css.card}>
         <img src={image} alt='project' className={css.image} />
+        <p>{title}</p>
+        
     </div>
   )
 }

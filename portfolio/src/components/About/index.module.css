@@ -7,7 +7,7 @@
           justify-content: center;
 }
 
-p {
+.p {
   max-width: 25em;
   font-size: 24px;
   -webkit-box-pack: center;
