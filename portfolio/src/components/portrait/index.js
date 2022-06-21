@@ -1,5 +1,5 @@
 import React from 'react'
-import portrait from '../../trippynb.png'
+import portrait from '../../Assets/trippynb.png'
 import css from './index.module.scss'
 
 export const Portrait = () => {

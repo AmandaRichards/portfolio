@@ -1,5 +1,5 @@
 import css from './index.module.scss'
-import logo from '../../ARB.svg'
+import logo from '../../Assets/ARB.svg'
 
 import React,  { useState } from 'react'
 import { Link } from 'react-router-dom';
@@ -26,7 +26,7 @@ function BurgerMenu() {
     <i className={css.status}></i>
     </div>
    <div className={css.menu}>
-<img src={logo} alt="logo" />
+<img src={logo} alt="logo" className={css.img} />
    <Link to="/" className={css.menu_item}>Home</Link>   
    <Link to="/about" className={css.menu_item}>About</Link>               
    <Link to="/projects" className={css.menu_item}>Projects</Link>       
