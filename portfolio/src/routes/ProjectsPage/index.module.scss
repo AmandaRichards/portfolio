@@ -7,11 +7,26 @@
 .cardContainer{
     // border: 1px red solid;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr ;
         grid-template-rows: 1fr;
         gap: 10vh 10px;
         grid-auto-flow: row;
         grid-template-areas: ". .";
         justify-items: center;
         margin-top: 20vh;
+        background-color: aliceblue;
+        max-width: 70vw;
+}
+
+.cardContainer2 {
+    // border: 1px red solid;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 0vh 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". .";
+    justify-items: center;
+    margin-top: 20vh;
+    background-color: aliceblue;
 }

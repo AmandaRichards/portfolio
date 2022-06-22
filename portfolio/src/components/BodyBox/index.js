@@ -30,10 +30,14 @@ function BodyBox() {
     </div>
       <div className={css.box2}>
       <h1 className={css.contact}>Experience</h1>
-      <h2>Work</h2>
-      <p>Background in the non-profit sector working in communications and programme delivery across housing, healthcare, youth enterprise and international development.</p>
-      <h2>Travel</h2>
-      <p>Experiencing other cultures and waitressing both make you a better person (Brene Brown says so). University summers, weekends and one gap year have been spent delivering food in locations including Disneyland Paris, an American summer camp and the Canadian Rockies. </p>
+      <h2 className={css.h2}>Work</h2>
+      <p className={css.text}>Background in the non-profit sector working in communications and programme delivery across housing, healthcare, youth enterprise and international development. Transferable skills in project management, communications, relationship building, consultancy and problem solving. Roles including:</p>
+      <h2>Enterprise Programme Executive - The Prince's Trust </h2>
+      <h2>Team Leader - Balloon Ventures Uganda </h2>
+      <h2>Communications Assitant - Imperial Health Charity </h2>
+      <h2>Charityworks Fellow Communications - Notting Hill Housing </h2>
+      <h2 className={css.h2}>Travel</h2>
+      <p className={css.text}>Experiencing other cultures and waitressing both make you a better person (Brene Brown says so). University summers, weekends and one gap year have been spent delivering food in locations including Disneyland Paris, an American summer camp and the Canadian Rockies. </p>
     </div>
     </div>
   )

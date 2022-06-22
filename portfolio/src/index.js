@@ -11,6 +11,7 @@ import {
 import About from './routes/AboutPage/about.jsx'
 import Projects from './routes/ProjectsPage/projects';
 import Hackathons from './routes/hackathons';
+import ContactPage from './routes/ContactPage/contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +21,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
-      <Route path="hackathons" element={<Hackathons />} />
+      <Route path="contact" element={<ContactPage />} />
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

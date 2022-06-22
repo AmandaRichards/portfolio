@@ -5,7 +5,7 @@ const Card = ({image, title}) => {
   return (
     <div className={css.card}>
         <img src={image} alt='project' className={css.image} />
-        <p>{title}</p>
+        {/* <p className={css.text}>{title}</p> */}
         
     </div>
   )
