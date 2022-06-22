@@ -1,8 +1,9 @@
 .h1 {
   color: white;
+  margin-bottom: 0px;
 }
 
-.form {
+.formContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,11 +13,62 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  max-width: 30vw;
+  min-width: 30vw;
+  background-color: #11abab;
+  padding: 2em;
+  border-radius: 10px;
+  margin-bottom: 3em;
+}
+
+.input {
+  min-height: 2em;
+  min-width: 7em;
+  margin: 1em;
+}
+
+.textarea {
+  min-height: 5em;
+  min-width: 7em;
+  margin: 1em;
+}
+
+.sendButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  min-height: 3em;
+  width: 6em;
+  margin: 1em;
+  color: black;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+.label {
+  margin-left: 0.75em;
+  font-size: 1.5em;
 }
 /*# sourceMappingURL=index.module.css.map */

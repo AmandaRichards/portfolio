@@ -10,7 +10,6 @@ import {
 } from "react-router-dom";
 import About from './routes/AboutPage/about.jsx'
 import Projects from './routes/ProjectsPage/projects';
-import Hackathons from './routes/hackathons';
 import ContactPage from './routes/ContactPage/contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
