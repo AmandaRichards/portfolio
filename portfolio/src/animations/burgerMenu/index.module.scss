@@ -1,5 +1,6 @@
 @import "../../variables/variables.scss";
 
+
 nav {
     display: flex;
     align-items: center;
@@ -86,7 +87,7 @@ nav {
 
 
     &:hover {
-        color: red
+        color: $pinkcolour
     }
 
 

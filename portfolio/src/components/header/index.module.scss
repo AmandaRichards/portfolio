@@ -40,9 +40,10 @@
     }
 
     h2 {
-        font-size: 7vh;
+        font-size: 9vh;
         z-index: 1;
         color: $pinkcolour;
+        margin:0;
 
         span::before {
             content: "<Software Engineer>";

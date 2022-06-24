@@ -9,9 +9,9 @@ export const Header = () => {
     <h3>Hi I'm</h3>
     {/* <img src={name} alt="Amanda" /> */}
     <h1>Amanda Richards</h1>
-    <br>
+    {/* <br>
 
-    </br>
+    </br> */}
     <h2><span></span></h2>
     {/* <button><Link to="/projects" className='workbutton'>See work</Link></button> */}
     </div>
