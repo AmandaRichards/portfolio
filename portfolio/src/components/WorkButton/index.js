@@ -5,7 +5,7 @@ import css from './index.module.scss'
 const WorkButton = () => {
   return (
     <div className={css.buttonContainer}>
-       <button><Link to="/projects" className={css.workbutton}>See work</Link></button> 
+       <button className={css.button}><Link to="/projects" className={css.workbutton}>See work</Link></button> 
     </div>
   )
 }
