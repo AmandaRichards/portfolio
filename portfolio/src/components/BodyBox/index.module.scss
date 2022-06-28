@@ -5,7 +5,7 @@
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr;
-gap: 0vh 0px;
+gap: 4em;
 grid-auto-flow: row;
 grid-template-areas: ". .";
 justify-items: center;
@@ -17,24 +17,26 @@ width: 100%;
 
 .box1{
     background-color: pink;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     text-align: left;
     color: #2bbca6;
     min-height: 40vh;
     padding-left: 2em;
     line-height: 1.5em;
+    border-radius: 10px;
     
 }
 
 .box2 {
     background-color: #2bbca6;;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     text-align: left;
     color: pink;
     min-height: 40vh;
     line-height: 1.5em;
+    border-radius: 10px;
 }
 
 h1{
@@ -45,17 +47,31 @@ h1{
     padding-bottom: 1em
 }
 
+.header{
+    justify-content: left;
+    text-align: left;
+    font-size: 1.5em;
+    padding-bottom: 0.25em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: rgb(241, 233, 241);
+}
+
 .text{
     font-size: 1.3em;
-    padding: 0.75em;
-    margin: 1em;
+    padding: 0em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0em;
+    margin-top: 0.25em;
     color: black;
 }
 
 h2{
     display:flex;
-    line-height: 0.5em;
+    // line-height: 0.5em;
     margin: 1em;
+    // padding-bottom: 1em;
   
 }
 

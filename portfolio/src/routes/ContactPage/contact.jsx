@@ -4,6 +4,7 @@ import BurgerMenu from '../../animations/burgerMenu'
 import css from './index.module.scss'
 import emailjs from '@emailjs/browser';
 import ContactDetails from '../../components/ContactDetails';
+import wave from '../../Assets/icons8-waving-hand-emoji-96.png'
 
 
 
@@ -23,7 +24,8 @@ const ContactPage = () => {
   return (
     <div >
         <BurgerMenu />
-        <h1 className={css.h1}>Say Hello!</h1>
+        <h1 className={css.h1}>Say Hello! <img src={wave} alt='wave emoji' className={css.emoji} /></h1>
+        
         <ContactDetails />
         
 

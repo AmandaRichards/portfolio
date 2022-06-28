@@ -7,24 +7,30 @@ import { Link } from 'react-router-dom';
 function BurgerMenu() {
     const [status, setStatus] = useState('close');
     // const [dropDown, setDropDown] = useState(status)
+    //
   return (
       <nav>
-      { status === 'close'?
+        { status === 'open'?
     <div className={css.BurgerMenu_container}
     role='button'
-    onClick={() => setStatus(status === 'open' ? 'close' : 'open')}>
-    <i className={status}></i>
-    <i className={css.status}></i>
-    <i className={css.status}></i>
+    onClick={() => setStatus(status === 'open' ? 'close' : 'open')}
+    >
+    
+    <i className={css.close}></i>
+    <i className={css.close}></i>
+    <i className={css.close}></i>
     </div>:
-    <div>
-     <div className={css.BurgerMenu_container}
+   
+    <div className={css.BurgerMenu_container}
     role='button'
-    onClick={() => setStatus(status === 'open' ? 'close' : 'open')}>
-    <i className={css.status}></i>
-    <i className={css.status}></i>
-    <i className={css.status}></i>
-    </div>
+    onClick={() => setStatus(status === 'open' ? 'close' : 'open')}
+    >
+    
+    <i className={css.open}></i>
+    <i className={css.open}></i>
+    <i className={css.open}></i>
+    
+  
    <div className={css.menu}>
 <img src={logo} alt="logo" className={css.img} />
    <Link to="/" className={css.menu_item}>Home</Link>   
@@ -34,8 +40,9 @@ function BurgerMenu() {
            
    
  </div>
- </div>
-    }
+    
+ </div>}
+    
     </nav>
   )
 }
